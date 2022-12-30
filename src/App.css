@@ -1,0 +1,172 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.6);
+  padding: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  
+}
+
+.user-avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  padding: 0 10px;
+}
+
+.user_info-avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+  height: 45px;
+}
+
+.user-info p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.user-info span {
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.user-card {
+  position: absolute;
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.button-section {
+  padding: 20px;
+  height: 40px;
+}
+
+.button-section button {
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  color: black;
+}
+
+.button {
+  border: 1px solid rgba(187, 186, 186, 0.499);
+  border-radius: 6px;
+  background-color: transparent;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(43, 43, 43);
+}
+
+.button-close {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px 0px 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(224, 39, 33, 0.867);
+}
+
+.button-close:hover {
+  background-color: transparent;
+  color: rgba(224, 39, 33, 0.867);
+}
+
+.button-message {
+  border: none;
+  border-radius: 6px;
+  height: 35px;
+  font-size: 16px;
+  color: white !important; 
+  background-color: rgba(35, 35, 226, 0.867);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(187, 186, 186, 0.499);
+  padding: 10px 20px 40px 20px;
+}
+
+.card-info p {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-info span {
+  opacity: 0.6;
+}
+
+.user-details {
+  display: flex;
+  padding: 20px
+}
+
+.user-data {
+  color: black;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.user-details p {
+  margin-bottom: 15px;
+}
+
+.email {
+  text-decoration: underline;
+  color: blue;
+}
+
+@media (max-width: 540px) {
+  .user-item {
+    padding: 10px;
+  }
+  .button-section {
+    padding: 10px;
+  }
+
+  .user-avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .user_info-avatar {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+}
